@@ -28,7 +28,10 @@ Quantum programs must be analyzed statistically,
 not by single execution results.
 
 flowchart TD
+
+%% ===============================
 %% MEASUREMENT AS SAMPLING
+%% ===============================
 subgraph A["Measurement as Sampling"]
     Qubit["Qubit State\n(Superposition)"]
     Measure["Measurement"]
@@ -38,7 +41,9 @@ subgraph A["Measurement as Sampling"]
     Measure --> Result
 end
 
+%% ===============================
 %% REPEATED EXECUTION (SHOTS)
+%% ===============================
 subgraph B["Why Repetition (Shots) Is Required"]
     Program["Quantum Program"]
     Run1["Run 1\n0"]
@@ -55,7 +60,9 @@ subgraph B["Why Repetition (Shots) Is Required"]
     Run3 --> Stats
 end
 
+%% ===============================
 %% IDEAL VS NOISY EXECUTION
+%% ===============================
 subgraph C["Ideal vs Noisy Execution"]
     Circuit["Quantum Circuit"]
     Ideal["Ideal Measurement\n(Expected Distribution)"]
@@ -67,7 +74,9 @@ subgraph C["Ideal vs Noisy Execution"]
     Noise --> Noisy
 end
 
+%% ===============================
 %% STATISTICAL CONVERGENCE
+%% ===============================
 subgraph D["Statistical Convergence"]
     Few["Few Shots\nUnstable Results"]
     More["More Shots\nMore Stable"]
@@ -76,4 +85,3 @@ subgraph D["Statistical Convergence"]
     Few --> More
     More --> True
 end
-
