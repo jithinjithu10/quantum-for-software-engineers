@@ -173,28 +173,38 @@ Used when real quantum hardware is unavailable or impractical.
   https://www.dwavesys.com
 
 ---
+## Learning Resources
 
-## Learning Resources (High Quality)
-
-### Beginner-Friendly
-- IBM Quantum Learning Platform  
-  https://learning.quantum.ibm.com
-
-- Qiskit Textbook  
-  https://qiskit.org/learn
-
-- Microsoft Quantum Katas  
-  https://github.com/microsoft/QuantumKatas
+| Level | Resource | Type | Link | Notes |
+|------|----------|------|------|------|
+| Beginner | IBM Quantum Learning | Interactive | https://learning.quantum.ibm.com | Best hands-on start |
+| Beginner | Qiskit Textbook | Book / Labs | https://qiskit.org/learn | Code-first explanations |
+| Beginner | Microsoft Quantum Katas | Exercises | https://github.com/microsoft/QuantumKatas | Practice-oriented |
+| Beginner | Quantum Country | Essays | https://quantum.country | Intuition-focused |
+| Intermediate | PennyLane Demos | Tutorials | https://pennylane.ai/qml/demonstrations.html | Quantum ML |
+| Intermediate | Cirq Tutorials | Docs | https://quantumai.google/cirq/tutorials | Hardware-aware |
+| Intermediate | IBM Quantum Lab | Cloud Lab | https://quantum.ibm.com/lab | Real hardware |
+| Intermediate | AWS Braket Notebooks | Notebooks | https://github.com/aws/amazon-braket-examples | Multi-hardware |
+| Advanced | MIT OpenCourseWare (QC) | Course | https://ocw.mit.edu | Academic depth |
+| Advanced | Stanford Quantum Courses | Lectures | https://quantum.stanford.edu/education | Theory + systems |
+| Advanced | Xanadu Quantum Codebook | Book | https://codebook.xanadu.ai | Photonic focus |
 
 ---
+## Academic References
 
-### Academic & Reference
-- Nielsen & Chuang — *Quantum Computation and Quantum Information*
-- MIT OpenCourseWare – Quantum Computation  
-  https://ocw.mit.edu
-
-- Stanford Quantum Courses  
-- Oxford Quantum Group Resources
+| Title | Authors / Institution | Type | Link | Focus |
+|-----|----------------------|------|------|------|
+| Quantum Computation and Quantum Information | Nielsen & Chuang | Book | https://doi.org/10.1017/CBO9780511976667 | Standard reference |
+| The Quantum Algorithm Zoo | NIST | Survey | https://quantumalgorithmzoo.org | Algorithm catalog |
+| Lecture Notes on Quantum Computation | John Preskill (Caltech) | Notes | http://theory.caltech.edu/~preskill/ph219 | Theory |
+| Quantum Computing for Computer Scientists | Yanofsky & Mannucci | Book | https://www.cambridge.org/9780521876582 | CS-focused |
+| Fault-Tolerant Quantum Computation | Gottesman | Paper | https://arxiv.org/abs/quant-ph/9705052 | Error correction |
+| Shor’s Algorithm | Peter Shor | Paper | https://arxiv.org/abs/quant-ph/9508027 | Factoring |
+| Grover’s Algorithm | Lov Grover | Paper | https://arxiv.org/abs/quant-ph/9605043 | Search |
+| Quantum Error Correction | Daniel Gottesman | Survey | https://arxiv.org/abs/0904.2557 | Reliability |
+| No-Cloning Theorem | Wootters & Zurek | Paper | https://doi.org/10.1038/299802a0 | Information theory |
+| Quantum Supremacy Using Superconducting Qubits | Google AI | Paper | https://www.nature.com/articles/s41586-019-1666-5 | Hardware milestone |
+| Topological Quantum Computation | Alexei Kitaev | Paper | https://arxiv.org/abs/quant-ph/9707021 | Fault tolerance |
 
 ---
 
@@ -225,6 +235,7 @@ Used when real quantum hardware is unavailable or impractical.
 
 Quantum computing is relevant to:
 - optimization
+- communication and networking
 - chemistry & materials
 - machine learning research
 - simulation of physical systems
