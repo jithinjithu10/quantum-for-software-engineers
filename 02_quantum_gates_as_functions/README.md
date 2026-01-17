@@ -15,3 +15,10 @@ Different gates produce different probability distributions.
 
 ## Key Takeaway
 Quantum gates behave like pure functions applied to a probabilistic state.
+
+## Visualization
+The `gate_visual.py` file demonstrates how different quantum gates
+produce different measurement probability distributions.
+
+This reinforces the idea that gates transform probability space,
+not fixed values.
