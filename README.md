@@ -135,68 +135,19 @@ Used when real quantum hardware is unavailable or impractical.
 - Strong tooling and documentation
 
 ---
+## Quantum Computer Types
 
-## Types of Quantum Computers (Engineering View)
+| Type | Qubit Technology | Key Characteristics | Used By / Examples | Typical Use Cases |
+|-----|------------------|---------------------|--------------------|-------------------|
+| Superconducting | Josephson junctions | Fast gates, cryogenic, scalable | IBM, Google, Rigetti | General-purpose QC, research |
+| Trapped Ion | Electromagnetically trapped ions | High fidelity, long coherence | IonQ, Quantinuum | Algorithms, precision tasks |
+| Photonic | Single photons | Room temperature, optical | Xanadu, PsiQuantum | Quantum networking, ML |
+| Neutral Atom | Atoms in optical tweezers | Highly scalable, flexible | QuEra, Pasqal | Simulation, optimization |
+| Quantum Annealing | Superconducting flux qubits | Optimization-specific, not gate-based | D-Wave | Combinatorial optimization |
+| Spin Qubits | Electron / nuclear spin | CMOS-compatible, compact | Intel, research labs | Future scalable systems |
+| Topological (Research) | Anyons (theoretical) | Error-resistant by design | Microsoft (research) | Fault-tolerant QC |
 
-### Superconducting Qubits
-Used by:
-- IBM
-- Google
-- Rigetti
-
-Characteristics:
-- fast gate times
-- cryogenic temperatures
-- microwave control
-
----
-
-### Trapped Ion Quantum Computers
-Used by:
-- IonQ
-- Quantinuum
-
-Characteristics:
-- high-fidelity gates
-- long coherence times
-- slower operations than superconducting systems
-
----
-
-### Photonic Quantum Computers
-Used by:
-- Xanadu
-- PsiQuantum
-
-Characteristics:
-- room-temperature operation
-- optical components
-- strong potential for scalability
-
----
-
-### Neutral Atom Quantum Computers
-Used by:
-- QuEra
-- Pasqal
-
-Characteristics:
-- optical tweezers
-- good scalability
-- emerging hardware model
-
----
-
-### Quantum Annealers
-Used by:
-- D-Wave
-
-Characteristics:
-- optimization-focused
-- not gate-based
-- specialized problem domain
-
----
+--
 
 ## Quantum Hardware Providers
 
