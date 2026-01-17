@@ -18,7 +18,7 @@ This repository explains quantum computing **the way software engineers understa
 ## Visual Overview
 
 ### Classical vs Quantum
-![Bit vs Qubit](diagrams/bit_vs_qubit.png)
+![Bit vs Qubit](diagrams/bit_vs_qubit.jpg)
 
 ### Quantum Gates
 ![Quantum Gates](diagrams/quantum_gates.png)
