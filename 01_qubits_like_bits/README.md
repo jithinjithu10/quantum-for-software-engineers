@@ -15,3 +15,10 @@ Running the program multiple times produces different outputs.
 
 ## Key Takeaway
 A qubit behaves like a probabilistic state object, not a fixed value.
+
+## Visualization
+The `qubit_visual.py` file runs multiple measurements of a qubit
+and plots the probability distribution of outcomes.
+
+This visual shows why quantum systems behave probabilistically,
+unlike classical bits.
