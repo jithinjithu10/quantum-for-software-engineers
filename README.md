@@ -1,27 +1,8 @@
-## Visual Overview
-
-### Classical vs Quantum
-![Bit vs Qubit](diagrams/bit_vs_qubit.jpg)
-
-### Quantum Gates
-![Quantum Gates](diagrams/quantum_gates.png)
-
 # quantum-for-software-engineers
 
 Learn quantum computing the way software engineers think.
 
 > A code-first, intuition-driven collection of resources, tools, and platforms for understanding quantum computing without heavy physics or math.
-
----
-## Visual Overview
-
-### Classical vs Quantum
-![Bit vs Qubit](diagrams/bit_vs_qubit.jpg)
-
-### Quantum Gates
-![Quantum Gates](diagrams/quantum_gates.png)
-
----
 
 ## What You Will Learn (Conceptually)
 
@@ -32,6 +13,16 @@ Learn quantum computing the way software engineers think.
 - Entanglement as shared system state
 - How quantum computers differ from classical computers *in practice*
 - Where quantum computing is useful today (and where it is not)
+
+---
+---
+## Visual Overview
+
+### Classical vs Quantum
+![Bit vs Qubit](diagrams/bit_vs_qubit.jpg)
+
+### Quantum Gates
+![Quantum Gates](diagrams/quantum_gates.png)
 
 ---
 
