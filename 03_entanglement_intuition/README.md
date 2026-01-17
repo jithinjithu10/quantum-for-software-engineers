@@ -16,3 +16,13 @@ Even when measured separately, outcomes always match.
 
 ## Key Takeaway
 Entanglement means the system must be described as a whole, not as parts.
+## Visual Intuition
+
+```mermaid
+flowchart LR
+    Pair["Entangled Pair"]
+    Pair --> A["Qubit A"]
+    Pair --> B["Qubit B"]
+
+    A -->|Measure| ResultA["0 or 1"]
+    B -->|Measure| ResultB["Same value"]
