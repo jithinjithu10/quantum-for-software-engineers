@@ -15,8 +15,13 @@ This repository explains quantum computing **the way software engineers understa
 - Quantum Key Distribution (BB84)
 - Why post-quantum cryptography matters
 
-##  Project Structure
-Each folder is an independent learning module with code and explanation.
+## Visual Overview
+
+### Classical vs Quantum
+![Bit vs Qubit](diagrams/bit_vs_qubit.png)
+
+### Quantum Gates
+![Quantum Gates](diagrams/quantum_gates.png)
 
 ##  Who Is This For?
 - Software Engineers
