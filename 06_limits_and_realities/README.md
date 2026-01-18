@@ -30,3 +30,19 @@ Quantum computers:
 
 Quantum computing is not a general replacement for classical computing.
 It is a specialized tool for specific problem classes.
+
+## Visual Intuition
+
+```mermaid
+flowchart TD
+    Qubit["Quantum State"]
+    Noise["Noise"]
+    Decoherence["Decoherence"]
+    Error["Accumulated Error"]
+    Failure["Unreliable Result"]
+
+    Qubit --> Noise
+    Noise --> Decoherence
+    Decoherence --> Error
+    Error --> Failure
+
