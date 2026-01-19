@@ -44,3 +44,21 @@ What it enables:
 Near-term quantum computing explores possibilities.
 Fault-tolerant quantum computing delivers guarantees.
 
+## Visual Intuition
+
+```mermaid
+flowchart LR
+    NISQ["NISQ Devices\n(Noisy, Limited)"]
+    Hybrid["Hybrid Algorithms"]
+    Research["Exploration & Prototyping"]
+
+    FT["Fault-Tolerant QC\n(Error-Corrected)"]
+    Deep["Deep Circuits"]
+    Scale["Large-Scale Algorithms"]
+
+    NISQ --> Hybrid
+    Hybrid --> Research
+
+    FT --> Deep
+    Deep --> Scale
+
