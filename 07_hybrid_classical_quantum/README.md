@@ -31,3 +31,18 @@ Quantum hardware acts as a probabilistic accelerator.
 ## Key Takeaway
 
 Real-world quantum computing is hybrid by design.
+
+## Visual Intuition
+
+```mermaid
+flowchart LR
+    Classical["Classical Computer"]
+    Quantum["Quantum Processor"]
+    Measure["Measurement Results"]
+    Update["Classical Update"]
+
+    Classical -->|Prepare & Control| Quantum
+    Quantum -->|Probabilistic Output| Measure
+    Measure --> Update
+    Update --> Classical
+
