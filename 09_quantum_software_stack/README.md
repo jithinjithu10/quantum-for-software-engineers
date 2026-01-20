@@ -34,3 +34,21 @@ Understanding the stack helps software engineers:
 
 Quantum programming is systems engineering,
 not just writing circuits.
+## Visual Intuition
+
+```mermaid
+flowchart TD
+    App["User Application"]
+    SDK["Quantum SDK"]
+    Compiler["Compiler / Transpiler"]
+    Runtime["Runtime & Scheduler"]
+    HAL["Hardware Abstraction Layer"]
+    Control["Control Electronics"]
+    Hardware["Quantum Hardware"]
+
+    App --> SDK
+    SDK --> Compiler
+    Compiler --> Runtime
+    Runtime --> HAL
+    HAL --> Control
+    Control --> Hardware
