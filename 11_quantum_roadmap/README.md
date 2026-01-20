@@ -81,3 +81,21 @@ You contribute meaningfully to the ecosystem.
 
 Quantum computing rewards patience, systems thinking,
 and strong software fundamentals.
+
+## Visual Roadmap
+
+```mermaid
+flowchart LR
+    A["Classical Foundations"]
+    B["Quantum Fundamentals"]
+    C["Quantum Programming"]
+    D["Hybrid Systems"]
+    E["Specialization"]
+    F["Research / Industry"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+
