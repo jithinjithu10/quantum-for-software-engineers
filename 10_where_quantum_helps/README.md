@@ -39,6 +39,22 @@ Most real applications combine:
 - classical systems for control and orchestration
 - quantum systems for narrow subroutines
 
+## Visual Intuition
+
+```mermaid
+flowchart TD
+    Problem["Computational Problem"]
+    Analyze["Analyze Problem Structure"]
+    Classical["Classical Computing"]
+    Hybrid["Hybrid Classical–Quantum"]
+    Quantum["Quantum Advantage"]
+
+    Problem --> Analyze
+    Analyze -->|No global structure| Classical
+    Analyze -->|Partial structure| Hybrid
+    Analyze -->|Strong structure| Quantum
+
+
 ## Key Takeaway
 
 Quantum computing is a specialist tool, not a universal accelerator.
