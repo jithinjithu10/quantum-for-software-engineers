@@ -39,6 +39,10 @@ Most real applications combine:
 - classical systems for control and orchestration
 - quantum systems for narrow subroutines
 
+## Key Takeaway
+
+Quantum computing is a specialist tool, not a universal accelerator.
+
 ## Visual Intuition
 
 ```mermaid
@@ -53,8 +57,3 @@ flowchart TD
     Analyze -->|No global structure| Classical
     Analyze -->|Partial structure| Hybrid
     Analyze -->|Strong structure| Quantum
-
-
-## Key Takeaway
-
-Quantum computing is a specialist tool, not a universal accelerator.
