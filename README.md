@@ -103,7 +103,7 @@ Used when real quantum hardware is unavailable or impractical.
   https://qiskit.org/ecosystem/aer/
 
 - Cirq Simulator  
-  https://quantumai.google/cirq/simulators
+  https://quantumai.google/reference/python/cirq/Simulator
 
 - QuTiP  
   https://qutip.org
